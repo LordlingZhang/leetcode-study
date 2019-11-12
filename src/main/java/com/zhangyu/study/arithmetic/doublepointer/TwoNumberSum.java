@@ -1,4 +1,4 @@
-package com.zhangyu.study.arithmetic;
+package com.zhangyu.study.arithmetic.doublepointer;
 
 import lombok.extern.slf4j.Slf4j;
 
