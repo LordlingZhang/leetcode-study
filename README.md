@@ -7,3 +7,4 @@
 - 两个数的和（查两个数） TwoNumberSum
 - 两个数平方的和（是否存在这两个数） SumOfSqure
 - 交换字符串中元音字母的位置  ExchangeVowels
+- 删除一个字符能否变成回文字符串 PalindromeValid
