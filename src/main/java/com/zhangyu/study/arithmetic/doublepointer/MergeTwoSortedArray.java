@@ -17,6 +17,14 @@ public class MergeTwoSortedArray {
         sort(arr1, 3, arr2,3);
     }
 
+    /**
+     * 这个排序的关键在于，每一个指针都指向当前数组的最后一个，也就是最大的一个
+     * 用两个数组中最大的值相比较，把大的值放到新数组的当前最后面
+     * @param arr1
+     * @param num1
+     * @param arr2
+     * @param num2
+     */
     public static void sort(int[] arr1, int num1, int[] arr2, int num2){
         // 记录数组的最后一个位置（即最大的位置）
         int index1 = num1 - 1, index2 = num2 - 1;
