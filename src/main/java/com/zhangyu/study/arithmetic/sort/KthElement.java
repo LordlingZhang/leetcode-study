@@ -30,6 +30,7 @@ public class KthElement {
         int l = 0, h = nums.length - 1;
         while (l < h) {
             int j = partition(nums, l, h);
+            // 下面的排序用了二分法的思想， 如果j位置比k小了，说明正确的值在j右侧，反之则在左侧，重新交换
             if (j == k) {
                 // j刚好记录了k位置的值
                 break;
@@ -53,7 +54,9 @@ public class KthElement {
     private static int partition(int[] a, int l, int h) {
         int i = l, j = h + 1;
         while (true) {
+            // 当比 对象 大 或者  位置超过最后一个数
             while (a[++i] < a[l] && i < h) ;
+            // 当比 对象小 或者  位置低于 对象位置
             while (a[--j] > a[l] && j > l) ;
             if (i >= j) {
                 break;
@@ -61,6 +64,7 @@ public class KthElement {
             // 交换位置
             swap(a, i, j);
         }
+        // 此次交换的目的是为了，让对比的对象换到此处，因为在上面的移动之后， j的位置为区分，左边都是比它小，右边都是比他大
         swap(a, l, j);
         return j;
     }
