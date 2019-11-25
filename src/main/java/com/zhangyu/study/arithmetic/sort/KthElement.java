@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 /**
  * @author zhangyu
  * @description 先排序，然后找出倒数第K个值
+ * https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20题解%20-%20排序.md#1-kth-element
  * @date 2019/11/22
  */
 public class KthElement {
