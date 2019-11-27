@@ -1,4 +1,5 @@
 # leetcode-study
+#### 地址：https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20题解%20-%20目录.md
 #### 考虑维度
 - 时间维度：是指执行当前算法所消耗的时间，我们通常用「时间复杂度」来描述。
 - 空间维度：是指执行当前算法需要占用多少内存空间，我们通常用「空间复杂度」来描述。
@@ -21,3 +22,9 @@
 - 找出数字数组中的第k个大的位置 ，使用快速选择法 KthElement
 - 在一组数字中，找出出现频率最高的前几位数字 TopKFrequentElements
 - 荷兰国旗问题，将包含012的数组，按012顺序排序输出  SortColors
+
+#### 贪心思想
+- 给小孩分配饼干，最多分配多少个 AssignCookies
+- ![image](https://camo.githubusercontent.com/d7a6b0ebe7f56a19dd0ac8c9fec1b911b0a6349b/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f65363935333764322d613031362d343637362d623136392d3965613137656562393033372e676966)
+
+- a
