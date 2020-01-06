@@ -33,3 +33,4 @@
 - 能否每隔一个位置种一朵花,种n朵 CanPlaceFlowers
 - 获取数组中的子数组的和的最大的值 MaximumSubarray
 - 分隔字符串，使得不同的字符串之间没有相同的字符串 SameCharsTogether
+- ![image](https://github.com/LordlingZhang/leetcode-study/blob/master/src/main/resources/image/greedythought/sameChars.png)
