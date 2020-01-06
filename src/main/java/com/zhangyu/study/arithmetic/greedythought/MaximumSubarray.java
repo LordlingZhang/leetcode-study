@@ -23,9 +23,9 @@ public class MaximumSubarray {
         int preNum = array[0];
         // 定义当前最大值
         int max = preNum;
-        for (int n : array){
+        for (int n=1 ; n < array.length; n++){
             // 如果当前是 负数，那么没有必要加后一个数，直接取后一个数，然后与当前最大值对比，取最大值
-            preNum = preNum > 0 ? preNum + n : n;
+            preNum = preNum > 0 ? preNum + array[n] : array[n];
             max = Math.max(preNum, max);
         }
         log.info("子数组最大值:{}", max);
