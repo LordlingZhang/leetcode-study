@@ -32,3 +32,4 @@
 - 按学生的身高排序，QueueReconstructionByHeight
 - 能否每隔一个位置种一朵花,种n朵 CanPlaceFlowers
 - 获取数组中的子数组的和的最大的值 MaximumSubarray
+- 分隔字符串，使得不同的字符串之间没有相同的字符串 SameCharsTogether
