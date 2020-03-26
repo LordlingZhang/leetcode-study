@@ -1,6 +1,6 @@
 # leetcode-study
 #### 地址：https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20题解%20-%20目录.md
-#### 考虑维度
+#### 考虑维度  https://blog.csdn.net/jsjwk/article/details/84315770
 - 时间维度：是指执行当前算法所消耗的时间，我们通常用「时间复杂度」来描述。
 - 空间维度：是指执行当前算法需要占用多少内存空间，我们通常用「空间复杂度」来描述。
 ---
